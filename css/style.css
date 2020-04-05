@@ -246,6 +246,9 @@ body{
 }
 
 @media only screen and (max-width: 475px) {
+	.col_inner_first {
+	    padding: 0.3em 0.8em 1em 0.8em !important;
+	}
 	.first_page{
 		margin: 2% 4%;
 	}	
