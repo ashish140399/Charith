@@ -1,0 +1,103 @@
+@font-face {
+  font-family: 'Helvetica';
+  src: url('Helvetica.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+
+
+html , body{
+	margin: 0
+}
+.first_page	{
+	margin: 3% 9%;
+}
+body{
+	background-color: #f0f0f0;
+	font-family: 'Helvetica', sans-serif;
+}
+.first_page .col_inner{
+	background-color: rgba(255,255,255,0.6);
+	padding: 2em;
+	height: 100%;
+	margin: 0 8%
+}
+.first_col_content{
+	display: block;
+	margin: auto;
+	width: 75%;
+}
+.first_col_img{
+	width: 100%;
+	display: block;
+	margin: auto;
+	margin-top: 1em;
+}
+.beer-reveal img{
+	width: auto;
+}
+#mysecond_col_carousel{
+	height: auto;
+    width: 100%;
+    margin: auto;
+}
+.second_col_content{
+	position: absolute;
+	font-size: 22px;
+	z-index: 20;
+	top: 15px;
+}
+
+.first_col_download_btn{
+	border:1px solid #000;
+	background-color: #000;
+	color: #fff;
+	margin: 1em auto;
+	display: block;
+}
+.first_col_download_btn span{
+	font-weight: 700
+}
+.first_col_download_btn:hover{
+	border:1px solid #000;
+	background-color: #fff;
+	color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+/*Responsive design*/
+
+@media only screen and (max-width: 991px) {
+  .first_page .col_inner{
+  	margin: 0
+  }
+}
+
+@media only screen and (max-width: 768px) {
+	.first_page .row{
+		display: block;
+	}
+	.first_page .row .col-sm-6{
+		max-width: 100%
+	}
+	.first_page .col_inner{
+		margin-bottom: 1em
+	}
+}
+
+@media only screen and (max-width: 475px) {
+	.first_page{
+		margin: 2% 4%;
+	}	
+	.first_page .col_inner{
+		padding: 0.8em
+	}
+}
+
+
